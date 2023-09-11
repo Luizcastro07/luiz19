@@ -1,33 +1,92 @@
-body{
-    background-color:rgba(160, 149, 100);
-    font-family: 'Lucida Sans';
-    font-size: small;
-    color: #fdfdfd;
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: #424E61;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 10%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+}
+
+.cabecalho-lista-item a{
+    text-decoration: none; 
+    color: white;
+}
+
+.escola-imagem{
+    width: 25%;
+}
+
+#escola{
+    background-image: linear-gradient(#424E61,#16CFF8);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-div-conteudo{
+    width: 35%;
+}
+
+
+.escola-titulo{
+    padding: 24px 0;
+}
+
+#estudante{
+    padding: 24px 0;
+}
+
+
+.estudante-imagem{
+    width: 120px;
+}
+
+.estudante-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.estudante-div{
     text-align: center;
-    display: inline;
-    font-size: 14px;
-    }
-    h3{
-    font-family: 'Lucida Sans';
-    font-size: small;
-    color: #fdfdfd;
+    padding: 16px 0;
+}
+
+.estudante-titulo{
     text-align: center;
-    display: inline;
-    font-size: 14px;
-    }
-    .linha {
-    font-family: 'Lucida Sans';
-    font-size: small;
-    font-size: 12px;
-    background-color:rgb(66, 56, 10);
-    }
-    .lista {
-    font-family: 'Lucida Sans';
-    font-size: small;
-    text-align: left;
-    font-size: 12px;
-    color:rgb(66, 56, 10);
-    }
-    .itens {
-    background-color: rgb(211, 204, 174);
-    }
+    padding: 50px 0;
+}
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+   
+}
